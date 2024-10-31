@@ -239,6 +239,7 @@ packaging==24.1
     # via jupyterlab-server
     # via matplotlib
     # via nbconvert
+    # via plotly
     # via statsmodels
 pandas==2.2.3
     # via polar
@@ -258,6 +259,8 @@ pillow==10.4.0
     # via python-pptx
 platformdirs==4.3.6
     # via jupyter-core
+plotly==5.24.1
+    # via workout-analysis
 polar==0.0.127
     # via workout-analysis
 prometheus-client==0.21.0
@@ -349,6 +352,8 @@ stack-data==0.6.3
     # via ipython
 statsmodels==0.14.4
     # via polar
+tenacity==9.0.0
+    # via plotly
 terminado==0.18.1
     # via jupyter-server
     # via jupyter-server-terminals
